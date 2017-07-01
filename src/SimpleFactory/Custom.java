@@ -5,7 +5,6 @@ package SimpleFactory;
  */
 public class Custom {
     public static void main(String [] args){
-
         Programmer JavaProgrammer = ProgrammerFactory.createProgrammer("Java");
         Programmer AndroidProgrmmer = ProgrammerFactory.createProgrammer("Android");
     }
