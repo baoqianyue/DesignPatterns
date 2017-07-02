@@ -9,8 +9,8 @@ public class Main {
         //具体指挥部
         Group group = new Group();
         //具体营(具体观察者)
-        ContreteBattalion one = new ContreteBattalion("一营",group);
-        ContreteBattalion two = new ContreteBattalion("二营",group);
+        TheFirstBattalion one = new TheFirstBattalion("一营",group);
+        TheTwoBattalion two = new TheTwoBattalion("二营",group);
 
         //指挥部决定发起攻击
         group.setState(true);
@@ -23,7 +23,5 @@ public class Main {
         group.detach(two);
 
         group.notifyBattalion();
-
-
     }
 }

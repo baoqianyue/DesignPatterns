@@ -21,6 +21,7 @@ public class Group implements Command{
         observers.remove(battalion);
     }
 
+    //用循环将每个观察者都通知到
     @Override
     public void notifyBattalion() {
         for (Battalion battalion :
@@ -28,7 +29,6 @@ public class Group implements Command{
             battalion.update();
         }
     }
-
     @Override
     public void setState(boolean isAttack) {
         if (isAttack == true){

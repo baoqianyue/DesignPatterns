@@ -23,7 +23,6 @@ public class Group {
             battalion.update();
         }
     }
-
     public void setState(boolean isAttack){
         if (isAttack == true){
             this.attack = true;
@@ -31,7 +30,4 @@ public class Group {
             this.attack = false;
         }
     }
-
-
-
 }
