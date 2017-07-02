@@ -19,7 +19,7 @@ public class Main {
         group.attach(one);
         group.attach(two);
 
-        //战场形式发生变化，撤销二营命令
+        //战场形式发生变化，撤销二营进攻命令
         group.detach(two);
 
         group.notifyBattalion();
