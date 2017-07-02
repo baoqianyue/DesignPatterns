@@ -31,6 +31,8 @@ public class Custom{
 
 * UML类图        
  ![](https://ooo.0o0.ooo/2017/07/02/5958937eed8fc.png)
+ 
+ ![](../../UMLImage/simplefactory.png)
 
 * 定义程序员最高父类，可以定义一些程序员共有的属性          
 
